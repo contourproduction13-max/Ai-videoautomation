@@ -1,0 +1,12 @@
+
+{
+  "name": "AIVideoAutomation",
+  "short_name": "Video AI",
+  "description": "AI-powered YouTube video creation studio",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#10121b",
+  "theme_color": "#10121b",
+  "orientation": "portrait",
+  "icons": []
+}
