@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10121b">
+<title>VIRALMATE AI - Creator Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">V</div>
+      <div>
+        <h2>VIRALMATE <span>AI</span></h2>
+        <small>YOUR AI CREATOR STUDIO</small>
+      </div>
+    </div>
+    <div class="status">
+      <span class="dot"></span> SYSTEM READY
+    </div>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <p class="eyebrow">WELCOME TO YOUR STUDIO</p>
+      <h1>Create content.<br><span>Grow without limits.</span></h1>
+      <p class="intro">
+        Research ideas, develop scripts and build videos
+        for any YouTube niche using AI.
+      </p>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card">
+        <span>PROJECTS</span>
+        <strong id="projectCount">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>VIDEOS PLANNED</span>
+        <strong id="videoCount">0</strong>
+      </div>
+    </section>
+
+    <section class="creator panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CONTENT ENGINE</p>
+          <h2>Create a new video</h2>
+        </div>
+        <div class="sparkle">✦</div>
+      </div>
+
+      <label for="niche">Choose your content niche</label>
+      <select id="niche">
+        <option value="Trending topics">Discover trending topics</option>
+        <option>Science and technology</option>
+        <option>Entertainment</option>
+        <option>Business and finance</option>
+        <option>Education</option>
+        <option>History and mysteries</option>
+        <option>Travel and lifestyle</option>
+        <option>Health and fitness</option>
+        <option>Gaming</option>
+        <option>News and current affairs</option>
+        <option>Motivation and storytelling</option>
+        <option>Food and cooking</option>
+        <option>Other / Custom niche</option>
+      </select>
+
+      <label for="customNiche">Custom niche (optional)</label>
+      <input id="customNiche" placeholder="Enter your own niche">
+
+      <label>Choose video format</label>
+      <div class="format-options">
+        <button class="format active" data-format="Shorts">
+          <span>▯</span>
+          <strong>YouTube Shorts</strong>
+          <small>Vertical videos</small>
+        </button>
+        <button class="format" data-format="Long Video">
+          <span>▭</span>
+          <strong>Long videos</strong>
+          <small>Full-length videos</small>
+        </button>
+      </div>
+
+      <label for="topic">Video topic (optional)</label>
+      <input id="topic" placeholder="Example: Secrets of the universe">
+
+      <button id="generateBtn" class="primary">
+        ✦ Generate content plan
+      </button>
+      <p class="note">Your creative journey starts here.</p>
+    </section>
+
+    <section class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR WORKSPACE</p>
+          <h2>Recent projects</h2>
+        </div>
+      </div>
+      <div id="projects">
+        <div class="empty">
+          <div class="empty-icon">▤</div>
+          <p>No projects yet</p>
+          <small>Your generated video plans will appear here.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel roadmap">
+      <p class="eyebrow">THE BIGGER PICTURE</p>
+      <h2>Our AI engines</h2>
+      <div class="engine"><span>01</span><div><b>Trend Intelligence</b><small>Discover content opportunities</small></div><em>PLANNED</em></div>
+      <div class="engine"><span>02</span><div><b>AI Script Writer</b><small>Research and storytelling</small></div><em>PLANNED</em></div>
+      <div class="engine"><span>03</span><div><b>Video Production</b><small>Voice, visuals and editing</small></div><em>PLANNED</em></div>
+      <div class="engine"><span>04</span><div><b>YouTube Publisher</b><small>Review and publish</small></div><em>PLANNED</em></div>
+      <div class="engine"><span>05</span><div><b>Performance Brain</b><small>Learn from channel analytics</small></div><em>PLANNED</em></div>
+    </section>
+  </main>
+
+  <footer>
+    VIRALMATE AI · BUILT FOR CREATORS
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+  </html>
+  
